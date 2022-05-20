@@ -6,6 +6,7 @@ import speech_recognition as sr
 from decouple import config
 from selenium import webdriver
 from selenium.webdriver.chrome.options import Options
+from selenium.webdriver.chrome.service import Service
 from selenium.webdriver.common.by import By
 from selenium.webdriver.common.keys import Keys
 from selenium.webdriver.support import expected_conditions as EC
@@ -13,7 +14,7 @@ from selenium.webdriver.support.ui import WebDriverWait
 from webdriver_manager.chrome import ChromeDriverManager
 
 chrome_options = Options()
-#chrome_options.add_argument("--headless")
+# chrome_options.add_argument("--headless")
 chrome_options.add_argument("user-data-dir=cookies")
 chrome_options.add_argument("--no-sandbox")
 chrome_options.add_argument("--disable-dev-shm-usage")
@@ -22,7 +23,9 @@ chrome_options.add_argument(
     '--user-agent="Mozilla/5.0 (Windows Phone 10.0; Android 4.2.1; Microsoft; Lumia 640 XL LTE) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/42.0.2311.135 Mobile Safari/537.36 Edge/12.10166"'
 )
 
-driver = webdriver.Chrome(ChromeDriverManager().install(), options=chrome_options)
+driver = webdriver.Chrome(
+    service=Service(ChromeDriverManager().install()), options=chrome_options
+)
 
 
 class NyTimesTechArticlesScraper:
@@ -136,7 +139,9 @@ class NyTimesTechArticlesScraper:
 
         except Exception as e:
             print(f"An exception ocurred with captcha v3: {e}")
-            human_solution = input("Please solve the captcha to save it on cookies and write Y on terminal: ")
+            human_solution = input(
+                "Please solve the captcha to save it on cookies and write Y on terminal: "
+            )
             if human_solution.upper == "Y":
                 self.do_login()
 

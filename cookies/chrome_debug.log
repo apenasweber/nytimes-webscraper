@@ -1,7 +1,7 @@
-[68840:259:0520/170336.206354:INFO:CONSOLE(166)] "The Content Security Policy '' was delivered via a <meta> element outside the document's <head>, which is disallowed. The policy has been ignored.", source: https://www.nytimes.com/ (166)
-[68840:259:0520/170336.207713:INFO:CONSOLE(1)] "Subscriptions Runtime: 0.1.22.218", source: https://news.google.com/swg/js/v1/swg.js (1)
-[68840:259:0520/170336.222273:INFO:CONSOLE(130)] "userinfo data unavailable", source: https://www.nytimes.com/ (130)
-[68840:259:0520/170336.435448:INFO:CONSOLE(33)] "<!--
+[70233:259:0520/201326.752944:INFO:CONSOLE(167)] "The Content Security Policy '' was delivered via a <meta> element outside the document's <head>, which is disallowed. The policy has been ignored.", source: https://www.nytimes.com/ (167)
+[70233:259:0520/201326.754144:INFO:CONSOLE(1)] "Subscriptions Runtime: 0.1.22.218", source: https://news.google.com/swg/js/v1/swg.js (1)
+[70233:259:0520/201326.765666:INFO:CONSOLE(130)] "userinfo data unavailable", source: https://www.nytimes.com/ (130)
+[70233:259:0520/201327.188376:INFO:CONSOLE(33)] "<!--
          0000000                         000        0000000
        111111111      11111111100          000      111111111
        00000        111111111111111111      00000      000000
@@ -26,26 +26,20 @@
 
       NYTimes.com: All the code that's fit to printf()
       We're hiring: https://nytimes.wd5.myworkdayjobs.com/Tech
-   -->", source: https://www.nytimes.com/vi-assets/static-assets/main-67378eb81239518f4ecd.js (33)
-[68878:259:0520/170336.439466:ERROR:system_services.cc(31)] SetApplicationIsDaemon: Error Domain=NSOSStatusErrorDomain Code=-50 "paramErr: error in user parameter list" (-50)
-[68840:259:0520/170336.825753:INFO:CONSOLE(1)] "SwG needs this article to define a product ID (e.g. example.com:premium). Articles can define a product ID using JSON+LD. SwG can check entitlements after this article defines a product ID.", source: https://news.google.com/swg/js/v1/swg.js (1)
-[68840:259:0520/170336.825943:INFO:CONSOLE(1)] "SwG needs this article to define a product ID (e.g. example.com:premium). Articles can define a product ID using JSON+LD. SwG can check entitlements after this article defines a product ID.", source: https://news.google.com/swg/js/v1/swg.js (1)
-[68840:259:0520/170336.848067:INFO:CONSOLE(2)] "et2 snippet should only load once per page", source:  (2)
-[68840:259:0520/170336.976078:INFO:CONSOLE(1)] "localStorage read failed SyntaxError: Unexpected token u in JSON at position 0", source: https://static01.nyt.com/newsgraphics/2021/coronavirus-tracking/_app/chunks/godzown-9010971d.js (1)
-[68855:12547:0520/170337.849741:WARNING:spdy_session.cc(3541)] Received HEADERS for invalid stream 3
-[68855:12547:0520/170337.849987:WARNING:spdy_session.cc(3541)] Received HEADERS for invalid stream 1
-[68840:259:0520/170338.245140:INFO:CONSOLE(10)] "Refused to connect to 'https://36db8b16.akstat.io/' because it violates the following Content Security Policy directive: "connect-src 'self' *.nytimes.com https://sentry.io *.datadome.co https://*.go-mpulse.net".
+   -->", source: https://www.nytimes.com/vi-assets/static-assets/main-b75488526aba3a21e73c.js (33)
+[70280:259:0520/201327.202815:ERROR:system_services.cc(31)] SetApplicationIsDaemon: Error Domain=NSOSStatusErrorDomain Code=-50 "paramErr: error in user parameter list" (-50)
+[70233:259:0520/201327.206766:INFO:CONSOLE(2)] "et2 snippet should only load once per page", source:  (2)
+[70233:259:0520/201327.660034:INFO:CONSOLE(1)] "localStorage read failed SyntaxError: Unexpected token u in JSON at position 0", source: https://static01.nyt.com/newsgraphics/2021/coronavirus-tracking/_app/chunks/godzown-9010971d.js (1)
+[70233:259:0520/201327.667667:INFO:CONSOLE(1)] "SwG needs this article to define a product ID (e.g. example.com:premium). Articles can define a product ID using JSON+LD. SwG can check entitlements after this article defines a product ID.", source: https://news.google.com/swg/js/v1/swg.js (1)
+[70233:259:0520/201327.667710:INFO:CONSOLE(1)] "SwG needs this article to define a product ID (e.g. example.com:premium). Articles can define a product ID using JSON+LD. SwG can check entitlements after this article defines a product ID.", source: https://news.google.com/swg/js/v1/swg.js (1)
+[70233:259:0520/201329.442012:INFO:CONSOLE(10)] "Refused to connect to 'https://36c1175e.akstat.io/' because it violates the following Content Security Policy directive: "connect-src 'self' *.nytimes.com https://sentry.io *.datadome.co https://*.go-mpulse.net".
 ", source: https://s.go-mpulse.net/boomerang/ATH8A-MAMN8-XPXCH-N5KAX-8D239 (10)
-[68840:259:0520/170339.475362:INFO:CONSOLE(10)] "Refused to connect to 'https://36db8b16.akstat.io/' because it violates the following Content Security Policy directive: "connect-src 'self' *.nytimes.com https://sentry.io *.datadome.co https://*.go-mpulse.net".
+[70233:259:0520/201330.641223:INFO:CONSOLE(10)] "Refused to connect to 'https://36c1175e.akstat.io/' because it violates the following Content Security Policy directive: "connect-src 'self' *.nytimes.com https://sentry.io *.datadome.co https://*.go-mpulse.net".
 ", source: https://s.go-mpulse.net/boomerang/ATH8A-MAMN8-XPXCH-N5KAX-8D239 (10)
-[68840:259:0520/170340.489403:INFO:CONSOLE(130)] "userinfo data unavailable", source: https://www.nytimes.com/ (130)
-[68840:259:0520/170340.507301:INFO:CONSOLE(166)] "The Content Security Policy '' was delivered via a <meta> element outside the document's <head>, which is disallowed. The policy has been ignored.", source: https://www.nytimes.com/ (166)
-[68855:12547:0520/170340.576597:WARNING:spdy_session.cc(3541)] Received HEADERS for invalid stream 1
-[68855:12547:0520/170340.576707:WARNING:spdy_session.cc(3541)] Received HEADERS for invalid stream 1
-[68855:12547:0520/170340.576731:WARNING:spdy_session.cc(3541)] Received HEADERS for invalid stream 3
-[68855:12547:0520/170340.576885:WARNING:spdy_session.cc(3541)] Received HEADERS for invalid stream 3
-[68855:12547:0520/170340.576908:WARNING:spdy_session.cc(3541)] Received HEADERS for invalid stream 1
-[68840:259:0520/170340.744653:INFO:CONSOLE(33)] "<!--
+[70233:259:0520/201331.492063:INFO:CONSOLE(130)] "userinfo data unavailable", source: https://www.nytimes.com/ (130)
+[70233:259:0520/201331.495152:INFO:CONSOLE(167)] "The Content Security Policy '' was delivered via a <meta> element outside the document's <head>, which is disallowed. The policy has been ignored.", source: https://www.nytimes.com/ (167)
+[70247:19971:0520/201331.558750:WARNING:spdy_session.cc(3541)] Received HEADERS for invalid stream 1
+[70233:259:0520/201331.713141:INFO:CONSOLE(33)] "<!--
          0000000                         000        0000000
        111111111      11111111100          000      111111111
        00000        111111111111111111      00000      000000
@@ -70,25 +64,25 @@
 
       NYTimes.com: All the code that's fit to printf()
       We're hiring: https://nytimes.wd5.myworkdayjobs.com/Tech
-   -->", source: https://www.nytimes.com/vi-assets/static-assets/main-67378eb81239518f4ecd.js (33)
-[68840:259:0520/170340.765718:INFO:CONSOLE(2)] "et2 snippet should only load once per page", source:  (2)
-[68840:259:0520/170341.147390:INFO:CONSOLE(1)] "localStorage read failed SyntaxError: Unexpected token u in JSON at position 0", source: https://static01.nyt.com/newsgraphics/2021/coronavirus-tracking/_app/chunks/godzown-9010971d.js (1)
-[68840:259:0520/170341.806329:INFO:CONSOLE(0)] "The Content Security Policy directive 'upgrade-insecure-requests' is ignored when delivered in a report-only policy.", source: https://myaccount.nytimes.com/seg#source=masthead-user-modal (0)
-[68840:259:0520/170342.416437:INFO:CONSOLE(53)] "The Content Security Policy directive 'upgrade-insecure-requests' is ignored when delivered in a report-only policy.", source: https://www.googletagmanager.com/gtm.js?id=GTM-P528B3&gtm_auth=tfAzqo1rYDLgYhmTnSjPqw&gtm_preview=env-130&gtm_cookies_win=x (53)
-[68840:259:0520/170342.416686:INFO:CONSOLE(53)] "The Content Security Policy directive 'upgrade-insecure-requests' is ignored when delivered in a report-only policy.", source: https://www.googletagmanager.com/gtm.js?id=GTM-P528B3&gtm_auth=tfAzqo1rYDLgYhmTnSjPqw&gtm_preview=env-130&gtm_cookies_win=x (53)
-[68840:259:0520/170342.620683:INFO:CONSOLE(476)] "The Content Security Policy directive 'upgrade-insecure-requests' is ignored when delivered in a report-only policy.", source: https://www.googletagmanager.com/gtm.js?id=GTM-P528B3&gtm_auth=tfAzqo1rYDLgYhmTnSjPqw&gtm_preview=env-130&gtm_cookies_win=x (476)
-[68840:259:0520/170342.620901:INFO:CONSOLE(476)] "The Content Security Policy directive 'upgrade-insecure-requests' is ignored when delivered in a report-only policy.", source: https://www.googletagmanager.com/gtm.js?id=GTM-P528B3&gtm_auth=tfAzqo1rYDLgYhmTnSjPqw&gtm_preview=env-130&gtm_cookies_win=x (476)
-[68840:259:0520/170346.178545:INFO:CONSOLE(483)] "Refused to load the script 'https://tags.bluekai.com/site/50550?ret=js&limit=1' because it violates the following Content Security Policy directive: "script-src 'self' 'unsafe-inline' 'unsafe-eval' *.nytimes.com *.nyt.com https://www.gstatic.com https://www.google.com https://www.googletagmanager.com https://www.google-analytics.com https://sc-static.net https://js.datadome.co https://*.go-mpulse.net". Note that 'script-src-elem' was not explicitly set, so 'script-src' is used as a fallback.
+   -->", source: https://www.nytimes.com/vi-assets/static-assets/main-b75488526aba3a21e73c.js (33)
+[70233:259:0520/201331.727170:INFO:CONSOLE(2)] "et2 snippet should only load once per page", source:  (2)
+[70233:259:0520/201332.100164:INFO:CONSOLE(1)] "localStorage read failed SyntaxError: Unexpected token u in JSON at position 0", source: https://static01.nyt.com/newsgraphics/2021/coronavirus-tracking/_app/chunks/godzown-9010971d.js (1)
+[70233:259:0520/201332.701247:INFO:CONSOLE(0)] "The Content Security Policy directive 'upgrade-insecure-requests' is ignored when delivered in a report-only policy.", source: https://myaccount.nytimes.com/seg#source=masthead-user-modal (0)
+[70233:259:0520/201333.488005:INFO:CONSOLE(53)] "The Content Security Policy directive 'upgrade-insecure-requests' is ignored when delivered in a report-only policy.", source: https://www.googletagmanager.com/gtm.js?id=GTM-P528B3&gtm_auth=tfAzqo1rYDLgYhmTnSjPqw&gtm_preview=env-130&gtm_cookies_win=x (53)
+[70233:259:0520/201333.488200:INFO:CONSOLE(53)] "The Content Security Policy directive 'upgrade-insecure-requests' is ignored when delivered in a report-only policy.", source: https://www.googletagmanager.com/gtm.js?id=GTM-P528B3&gtm_auth=tfAzqo1rYDLgYhmTnSjPqw&gtm_preview=env-130&gtm_cookies_win=x (53)
+[70233:259:0520/201333.490892:INFO:CONSOLE(476)] "The Content Security Policy directive 'upgrade-insecure-requests' is ignored when delivered in a report-only policy.", source: https://www.googletagmanager.com/gtm.js?id=GTM-P528B3&gtm_auth=tfAzqo1rYDLgYhmTnSjPqw&gtm_preview=env-130&gtm_cookies_win=x (476)
+[70233:259:0520/201333.491051:INFO:CONSOLE(476)] "The Content Security Policy directive 'upgrade-insecure-requests' is ignored when delivered in a report-only policy.", source: https://www.googletagmanager.com/gtm.js?id=GTM-P528B3&gtm_auth=tfAzqo1rYDLgYhmTnSjPqw&gtm_preview=env-130&gtm_cookies_win=x (476)
+[70233:259:0520/201337.061478:INFO:CONSOLE(483)] "Refused to load the script 'https://tags.bluekai.com/site/50550?ret=js&limit=1' because it violates the following Content Security Policy directive: "script-src 'self' 'unsafe-inline' 'unsafe-eval' *.nytimes.com *.nyt.com https://www.gstatic.com https://www.google.com https://www.googletagmanager.com https://www.google-analytics.com https://sc-static.net https://js.datadome.co https://*.go-mpulse.net". Note that 'script-src-elem' was not explicitly set, so 'script-src' is used as a fallback.
 ", source: https://www.googletagmanager.com/gtm.js?id=GTM-WF9QCL2&gtm_auth=28ykelszAvyta5q5YGRVOg&gtm_preview=env-53&gtm_cookies_win=x (483)
-[68840:259:0520/170346.189442:INFO:CONSOLE(483)] "Refused to load the script 'https://tags.bkrtx.com/js/bk-coretag.js' because it violates the following Content Security Policy directive: "script-src 'self' 'unsafe-inline' 'unsafe-eval' *.nytimes.com *.nyt.com https://www.gstatic.com https://www.google.com https://www.googletagmanager.com https://www.google-analytics.com https://sc-static.net https://js.datadome.co https://*.go-mpulse.net". Note that 'script-src-elem' was not explicitly set, so 'script-src' is used as a fallback.
+[70233:259:0520/201337.071687:INFO:CONSOLE(483)] "Refused to load the script 'https://tags.bkrtx.com/js/bk-coretag.js' because it violates the following Content Security Policy directive: "script-src 'self' 'unsafe-inline' 'unsafe-eval' *.nytimes.com *.nyt.com https://www.gstatic.com https://www.google.com https://www.googletagmanager.com https://www.google-analytics.com https://sc-static.net https://js.datadome.co https://*.go-mpulse.net". Note that 'script-src-elem' was not explicitly set, so 'script-src' is used as a fallback.
 ", source: https://www.googletagmanager.com/gtm.js?id=GTM-WF9QCL2&gtm_auth=28ykelszAvyta5q5YGRVOg&gtm_preview=env-53&gtm_cookies_win=x (483)
-[68840:259:0520/170346.190498:INFO:CONSOLE(3)] "Refused to load the script 'https://static.chartbeat.com/js/chartbeat.js' because it violates the following Content Security Policy directive: "script-src 'self' 'unsafe-inline' 'unsafe-eval' *.nytimes.com *.nyt.com https://www.gstatic.com https://www.google.com https://www.googletagmanager.com https://www.google-analytics.com https://sc-static.net https://js.datadome.co https://*.go-mpulse.net". Note that 'script-src-elem' was not explicitly set, so 'script-src' is used as a fallback.
+[70233:259:0520/201337.072687:INFO:CONSOLE(3)] "Refused to load the script 'https://static.chartbeat.com/js/chartbeat.js' because it violates the following Content Security Policy directive: "script-src 'self' 'unsafe-inline' 'unsafe-eval' *.nytimes.com *.nyt.com https://www.gstatic.com https://www.google.com https://www.googletagmanager.com https://www.google-analytics.com https://sc-static.net https://js.datadome.co https://*.go-mpulse.net". Note that 'script-src-elem' was not explicitly set, so 'script-src' is used as a fallback.
 ", source:  (3)
-[68840:259:0520/170346.194815:INFO:CONSOLE(0)] "Refused to load the image 'https://insight.adsrvr.org/track/pxl/?adv=bomn82o&ct=0:s2f54xh&fmt=3&ttl=43200&gtmcb=193632267' because it violates the following Content Security Policy directive: "img-src 'self' data: *.nytimes.com https://www.google-analytics.com https://www.google.com https://stats.g.doubleclick.net".
+[70233:259:0520/201337.076856:INFO:CONSOLE(0)] "Refused to load the image 'https://insight.adsrvr.org/track/pxl/?adv=bomn82o&ct=0:s2f54xh&fmt=3&ttl=43200&gtmcb=1878410091' because it violates the following Content Security Policy directive: "img-src 'self' data: *.nytimes.com https://www.google-analytics.com https://www.google.com https://stats.g.doubleclick.net".
 ", source: https://myaccount.nytimes.com/auth/logout (0)
-[68840:259:0520/170346.195620:INFO:CONSOLE(0)] "Refused to frame 'https://5290727.fls.doubleclick.net/' because it violates the following Content Security Policy directive: "frame-src https://www.google.com *.captcha-delivery.com".
+[70233:259:0520/201337.077556:INFO:CONSOLE(0)] "Refused to frame 'https://5290727.fls.doubleclick.net/' because it violates the following Content Security Policy directive: "frame-src https://www.google.com *.captcha-delivery.com".
 ", source: https://www.googletagmanager.com/ (0)
-[68840:259:0520/170346.209843:INFO:CONSOLE(6774)] "crbug/1173575, non-JS module files deprecated.", source: chrome-error://chromewebdata/ (6774)
-[68855:38403:0520/170346.435028:WARNING:sqlite_persistent_store_backend_base.cc(165)] Failed to post task from FlushAndNotifyInBackground@net/extras/sqlite/sqlite_persistent_store_backend_base.cc:213 to client_task_runner_.
-[68855:38403:0520/170346.452927:WARNING:sqlite_persistent_store_backend_base.cc(165)] Failed to post task from FlushAndNotifyInBackground@net/extras/sqlite/sqlite_persistent_store_backend_base.cc:213 to client_task_runner_.
-[68840:259:0520/170346.464949:WARNING:pref_notifier_impl.cc(41)] Pref observer for media_router.cast_allow_all_ips found at shutdown.
+[70233:259:0520/201337.090634:INFO:CONSOLE(6774)] "crbug/1173575, non-JS module files deprecated.", source: chrome-error://chromewebdata/ (6774)
+[70247:16131:0520/201337.295947:WARNING:sqlite_persistent_store_backend_base.cc(165)] Failed to post task from FlushAndNotifyInBackground@net/extras/sqlite/sqlite_persistent_store_backend_base.cc:213 to client_task_runner_.
+[70247:16131:0520/201337.314182:WARNING:sqlite_persistent_store_backend_base.cc(165)] Failed to post task from FlushAndNotifyInBackground@net/extras/sqlite/sqlite_persistent_store_backend_base.cc:213 to client_task_runner_.
+[70233:259:0520/201337.359675:WARNING:pref_notifier_impl.cc(41)] Pref observer for media_router.cast_allow_all_ips found at shutdown.
